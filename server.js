@@ -4,8 +4,8 @@ const fs = require('fs')
 const path = require('path')
 
 
-dir="/home/local/NEXTEDUCATION/sitramm/Desktop/myproject/VideoStreamingPlayer";
-filePath= "/home/local/NEXTEDUCATION/sitramm/Downloads/video.mp4";
+dir=pathofIndexfile;
+filePath= pathifVideoFile;
 
 app.get("/samplePlayer",function(request,response){
 	response.sendFile(path.join(dir+ '/index.html'))
