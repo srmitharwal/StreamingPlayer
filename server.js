@@ -11,6 +11,7 @@ app.get("/samplePlayer",function(request,response){
 	response.sendFile(path.join(dir+ '/index.html'))
 })
 
+//streaming the file
 app.get("/video",function(request,response){
 
 	console.log(request.headers.range);
